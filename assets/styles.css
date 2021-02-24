@@ -1,0 +1,26 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.flag-icon {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-flex;
+    color: transparent;
+    width: 1.33333333em;
+    line-height: 1em;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-icon-gb {
+    background-image: url(/assets/flags/gb43.svg)
+}
